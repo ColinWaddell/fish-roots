@@ -13,6 +13,16 @@
     }
   ?>
 
+  <div class="jumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="header-bubbles"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main <?php echo roots_main_class(); ?>" role="main">
