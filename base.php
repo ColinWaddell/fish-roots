@@ -15,26 +15,42 @@
 
   <div class="jumbo">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="header-bubbles"></div>
+      <div class="row hidden-sm hidden-xs">
+        <div class="col-sm-12 pull-right home-contact">
+          <p>Altrincham Dental Practice, 63 Manchester Road, WA14 4RH - 0161 928 2886</p>
+        </div>
+      </div>
+
+      <div class="row hidden-sm hidden-xs">
+        <div class="col-xs-4 bubble">
+          <img src="<?php echo home_url('/assets/img/bubble1.jpg'); ?>" alt="">
+        </div>
+
+        <div class="col-xs-4 bubble">
+          <img src="<?php echo home_url('/assets/img/bubble2.jpg'); ?>" alt="">
+        </div>
+
+        <div class="col-xs-4 bubble">
+          <img src="<?php echo home_url('/assets/img/bubble3.jpg'); ?>" alt="">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="wrap container" role="document">
-    <div class="content row">
-      <div class="main <?php echo roots_main_class(); ?>" role="main">
-        <?php include roots_template_path(); ?>
-      </div><!-- /.main -->
-      <?php if (roots_display_sidebar()) : ?>
-      <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
-        <?php include roots_sidebar_path(); ?>
-      </aside><!-- /.sidebar -->
-      <?php endif; ?>
-    </div><!-- /.content -->
-  </div><!-- /.wrap -->
+  <div class="document-body">
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <div class="main <?php echo roots_main_class(); ?>" role="main">
+          <?php include roots_template_path(); ?>
+        </div><!-- /.main -->
+        <?php if (roots_display_sidebar()) : ?>
+        <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
+          <?php include roots_sidebar_path(); ?>
+        </aside><!-- /.sidebar -->
+        <?php endif; ?>
+      </div><!-- /.content -->
+    </div><!-- /.wrap -->
+  </div>
 
   <?php get_template_part('templates/footer'); ?>
 

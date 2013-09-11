@@ -7,7 +7,7 @@
    Fonts
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,400italic,300italic,100italic,700italic);
 
 /* ==========================================================================
    Base
@@ -15,7 +15,7 @@
 
 body {
   font-weight: 300;
-  background: #f9f9f9;
+  background-color: @navbar-default-bg;
 }
 
 
@@ -30,12 +30,21 @@ body {
   margin-bottom: 0;
 }
 
+.navbar-brand {
+  text-indent: -5000px;
+  background: url('../img/logo.png') no-repeat;
+  height: 105px;
+  width: 350px;
+  display: block;
+  position: absolute;
+}
+
 div[role="document"]{
   padding-top: 20px; 
 }
 
 .jumbo{
-  padding: 10px 0;
+  padding: 10px 0 30px; 
   background: #fff;
   border-bottom: 1px solid #CCC;
 
@@ -48,16 +57,41 @@ div[role="document"]{
    Content
    ========================================================================== */
 
+.document-body{
+  background: #f9f9f9;
+  padding-bottom: 20px;
+
+  img.alignleft{
+    margin-right: 20px;
+  }
+}
+
 .content { }
 
+.home-contact{
+  text-align: right;
+  margin-bottom: 15px;
 
-.header-bubbles{
-  display: block;
-  width: 840px;
-  height: 229px;
-  background: url('../img/header.png') no-repeat;
-  margin: 0 auto;
+  p{
+    color: #787879;
+  }
 }
+
+.bubble{
+  text-align: center;
+
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+ }
+
+
 
 /* ==========================================================================
    Primary Content
@@ -69,6 +103,13 @@ div[role="document"]{
 .gallery-row { padding: 15px 0; }
 
 
+h1{
+  margin-top: 12.5px;
+}
+
+.page-header{
+  margin-top: 0;
+}
 
 /* ==========================================================================
    Sidebar
@@ -93,6 +134,16 @@ div[role="document"]{
 /* ==========================================================================
    Footer
    ========================================================================== */
+
+footer{
+  border-top: 1px solid #ccc;
+  margin: 0;
+  padding: 20px 0;
+
+  a{
+    color: @navbar-default-link-color;
+  }
+}
 
 .content-info { }
 
