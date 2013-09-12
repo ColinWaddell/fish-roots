@@ -6093,4 +6093,7 @@ figure.alignnone {
   .testimonials-list > div:nth-child(2) {
     border: 0;
   }
+  .business-logos {
+    text-align: left;
+  }
 }
