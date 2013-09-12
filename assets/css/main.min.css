@@ -5926,6 +5926,9 @@ body {
 .navbar {
   margin-bottom: 0;
 }
+.navbar .container {
+  max-width: 1040px;
+}
 .navbar-brand {
   text-indent: -5000px;
   background: url('../img/logo.png') no-repeat;
