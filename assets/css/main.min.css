@@ -6097,5 +6097,7 @@ figure.alignnone {
 @media (max-width: 768px) {
   .business-logos {
     text-align: left;
+    border-top: 1px solid #CCC;
+    padding-top: 20px;
   }
 }
