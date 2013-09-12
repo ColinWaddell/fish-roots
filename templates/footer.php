@@ -6,11 +6,11 @@
         <p><a href="mailto:Contact@AndrewFish.co.uk">Contact@AndrewFish.co.uk</a></p>
       </div>
       <div class="col-lg-8 business-logos">
-        <a href=""><img src="<?php echo home_url('/assets/img/straumann.png'); ?>" alt=""></a>
+        <a target="_blank" href="http://www.straumann.co.uk/"><img src="<?php echo home_url('/assets/img/straumann.png'); ?>" alt=""></a>
         <br />
-        <a href=""><img src="<?php echo home_url('/assets/img/geistlich-surgery.png'); ?>" alt=""></a>
+        <a target="_blank" href="http://www.geistlich-surgery.com/home_en.html"><img src="<?php echo home_url('/assets/img/geistlich-surgery.png'); ?>" alt=""></a>
         <br />
-        <a href=""><img src="<?php echo home_url('/assets/img/geistlich-biomaterials.png'); ?>" alt=""></a>
+        <a target="_blank" href="http://www.geistlich.com/index.cfm?setlan=en"><img src="<?php echo home_url('/assets/img/geistlich-biomaterials.png'); ?>" alt=""></a>
       </div>
     </div>
     
