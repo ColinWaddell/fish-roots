@@ -6074,9 +6074,7 @@ figure.alignnone {
    Media Queries
    ========================================================================== */
 @media (min-width: 768px) {
-  .business-logos {
-    text-align: left;
-  }
+  
 }
 @media (min-width: 992px) {
   
@@ -6094,5 +6092,10 @@ figure.alignnone {
   }
   .testimonials-list > div:nth-child(2) {
     border: 0;
+  }
+}
+@media (max-width: 768px) {
+  .business-logos {
+    text-align: left;
   }
 }
