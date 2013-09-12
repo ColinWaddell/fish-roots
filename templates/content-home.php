@@ -3,7 +3,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <div class="row">
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 home-thumbnail">
       <?php the_post_thumbnail(); ?>  
     </div>  
 

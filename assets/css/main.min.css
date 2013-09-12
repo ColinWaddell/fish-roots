@@ -5975,6 +5975,9 @@ div[role="document"] {
 .home-contact p {
   color: #787879;
 }
+.home-thumbnail img {
+  width: 100%;
+}
 .bubble {
   text-align: center;
 }
