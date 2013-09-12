@@ -6,6 +6,9 @@
         <p><a href="mailto:Contact@AndrewFish.co.uk">Contact@AndrewFish.co.uk</a></p>
       </div>
       <div class="col-sm-8 business-logos">
+
+        <hr class="visible-xs" />
+
         <a target="_blank" href="http://www.straumann.co.uk/"><img src="<?php echo home_url('/assets/img/straumann.png'); ?>" alt=""></a>
         <br />
         <a target="_blank" href="http://www.geistlich-surgery.com/home_en.html"><img src="<?php echo home_url('/assets/img/geistlich-surgery.png'); ?>" alt=""></a>
