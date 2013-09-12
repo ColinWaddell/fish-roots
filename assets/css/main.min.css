@@ -5934,9 +5934,6 @@ body {
   display: block;
   position: absolute;
 }
-.navbar-collapse {
-  padding-top: 50px;
-}
 div[role="document"] {
   padding-top: 20px;
 }
@@ -6040,4 +6037,9 @@ figure.alignnone {
 }
 @media (min-width: 1200px) {
   
+}
+@media (max-width: 480px) {
+  .navbar-collapse {
+    padding-top: 50px;
+  }
 }
