@@ -5954,6 +5954,7 @@ div[role="document"] {
 }
 .document-body img.alignleft {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 .home-contact {
   text-align: right;
@@ -5991,6 +5992,10 @@ label.control-label {
   font-size: 18px;
   font-weight: 300;
 }
+.cscfForm input[type="text"],
+.cscfForm input[type="email"] {
+  height: 24px;
+}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -6007,6 +6012,29 @@ footer {
 }
 footer a {
   color: #2d9ac3;
+}
+.business-logos {
+  text-align: right;
+}
+.business-logos img {
+  padding-bottom: 10px;
+}
+/* ==========================================================================
+   Testimonials
+   ========================================================================== */
+.testimonials-list > div:nth-child(2) {
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+}
+.testimonials-list {
+  border-top: 0;
+}
+.testimonials-list.newline {
+  border-top: 1px solid #EEE;
+  margin-top: 10px;
+}
+.testimonials-list h4 {
+  text-align: right;
 }
 /* ==========================================================================
    WordPress Generated Classes
@@ -6041,5 +6069,12 @@ figure.alignnone {
 @media (max-width: 480px) {
   .navbar-collapse {
     padding-top: 50px;
+  }
+  .testimonials-list > div {
+    border: 0;
+    margin-bottom: 40px;
+  }
+  .testimonials-list > div:nth-child(2) {
+    border: 0;
   }
 }

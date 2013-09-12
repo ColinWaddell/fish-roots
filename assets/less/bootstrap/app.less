@@ -65,6 +65,7 @@ div[role="document"]{
 
   img.alignleft{
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -117,6 +118,13 @@ label.control-label{
   font-weight: 300;
 }
 
+.cscfForm{
+  input[type="text"],
+  input[type="email"]{
+    height: 24px;
+  }
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
@@ -151,8 +159,36 @@ footer{
   }
 }
 
+.business-logos{
+  text-align: right;
+
+  img{
+    padding-bottom: 10px;
+  }
+}
+
 .content-info { }
 
+/* ==========================================================================
+   Testimonials
+   ========================================================================== */
+.testimonials-list > div:nth-child(2){
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+}
+
+.testimonials-list{
+  border-top: 0;
+}
+
+.testimonials-list.newline{
+  border-top: 1px solid #EEE;
+  margin-top: 10px;
+}
+
+.testimonials-list h4{
+  text-align: right;
+}
 
 
 /* ==========================================================================
@@ -182,4 +218,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-top: 50px;
   }
 
+  .testimonials-list > div{
+    border: 0;
+    margin-bottom: 40px;
+  }
+
+  .testimonials-list > div:nth-child(2){
+    border: 0;
+  }
 }

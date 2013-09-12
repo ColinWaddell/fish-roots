@@ -23,15 +23,15 @@
 
       <div class="row hidden-sm hidden-xs">
         <div class="col-xs-4 bubble">
+          <img src="<?php echo home_url('/assets/img/bubble3.jpg'); ?>" alt="">
+        </div>
+
+        <div class="col-xs-4 bubble">
           <img src="<?php echo home_url('/assets/img/bubble1.jpg'); ?>" alt="">
         </div>
 
         <div class="col-xs-4 bubble">
           <img src="<?php echo home_url('/assets/img/bubble2.jpg'); ?>" alt="">
-        </div>
-
-        <div class="col-xs-4 bubble">
-          <img src="<?php echo home_url('/assets/img/bubble3.jpg'); ?>" alt="">
         </div>
       </div>
     </div>

@@ -4,13 +4,13 @@
   <figure class="home-carousel">
     <div class="row">
 
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="<?php echo site_url('/assets/img/andy.jpg') ?>" alt=""> 
+          <?php the_post_thumbnail(); ?>  
         </div>
       </div>  
 
-      <div class="col-sm-6">
+      <div class="col-sm-8">
         <?php the_content(); ?>
       </div>  
 

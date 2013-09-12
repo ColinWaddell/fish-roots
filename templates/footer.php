@@ -1,11 +1,21 @@
 <footer>
   <div class="content-info container" role="contentinfo">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-4">
+        <p>Andrew T Fish BDS MFDS RCS(Edin)<br/>Altrincham Dental Practice,<br />63 Manchester Road,<br />WA14 4RH,<br/><strong>0161 928 2886</strong></p>
         <p><a href="mailto:Contact@AndrewFish.co.uk">Contact@AndrewFish.co.uk</a></p>
-        <p>Altrincham Dental Practice, 63 Manchester Road, WA14 4RH, 0161 928 2886</p>
+      </div>
+      <div class="col-lg-8 business-logos">
+        <a href=""><img src="<?php echo home_url('/assets/img/straumann.png'); ?>" alt=""></a>
+        <br />
+        <a href=""><img src="<?php echo home_url('/assets/img/geistlich-surgery.png'); ?>" alt=""></a>
+        <br />
+        <a href=""><img src="<?php echo home_url('/assets/img/geistlich-biomaterials.png'); ?>" alt=""></a>
       </div>
     </div>
+    
+
+    <hr />
 
     <div class="row">
       <div class="col-lg-12">
