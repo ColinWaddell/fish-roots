@@ -84,7 +84,7 @@ function roots_nav_menu_args($args = '') {
     $roots_nav_menu_args['depth'] = 2;
   }
 
-  if (!$args['walker']) {
+  if (!$args['walker'] && !$args['disable_walker']) {
     $roots_nav_menu_args['walker'] = new Roots_Nav_Walker();
   }
 
