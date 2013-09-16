@@ -31,6 +31,8 @@
 
       <div class="col-sm-4 business-logos right">
 
+        <br class="visible-xs" />
+
         <a target="_blank" href="http://www.geistlich.com/index.cfm?setlan=en">
           <img src="<?php echo home_url('/assets/img/geistlich-biomaterials.png'); ?>" alt="">
         </a>
