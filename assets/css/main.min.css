@@ -6102,7 +6102,8 @@ figure.alignnone {
   }
 }
 @media (max-width: 768px) {
-  .business-logos {
+  .business-logos.right,
+  .business-logos.center {
     text-align: left;
   }
 }
