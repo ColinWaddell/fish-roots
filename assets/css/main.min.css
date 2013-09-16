@@ -6029,11 +6029,18 @@ footer {
 footer a {
   color: #2d9ac3;
 }
-.business-logos {
-  text-align: right;
-}
 .business-logos img {
   padding-bottom: 10px;
+}
+.business-logos a {
+  padding-bottom: 10px;
+  display: block;
+}
+.business-logos.right {
+  text-align: right;
+}
+.business-logos.center {
+  text-align: center;
 }
 /* ==========================================================================
    Testimonials
