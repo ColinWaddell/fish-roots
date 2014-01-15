@@ -5,6 +5,13 @@
         <p>Andrew T Fish BDS MFDS RCS(Edin)<br/>Altrincham Dental Practice,<br />
         63 Manchester Road,<br />WA14 4RH,<br/><strong>0161 928 2886</strong></p>
         <p><a href="mailto:Contact@AndrewFish.co.uk">Contact@AndrewFish.co.uk</a></p>
+
+        <br />
+
+        <a target="_blank" href="http://www.baos.org.uk/">
+          <img src="<?php echo home_url('/assets/img/baos.png'); ?>" alt="">
+        </a>
+
       </div>
 
       <div class="col-sm-4 business-logos center">
