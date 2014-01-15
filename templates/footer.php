@@ -8,6 +8,8 @@
 
         <br />
 
+        <hr class="visible-xs" />
+
         <a target="_blank" href="http://www.baos.org.uk/">
           <img src="<?php echo home_url('/assets/img/baos.png'); ?>" alt="">
         </a>
@@ -15,8 +17,6 @@
       </div>
 
       <div class="col-sm-4 business-logos center">
-
-        <hr class="visible-xs" />
 
         <a target="_blank" href="http://www.straumann.co.uk/">
           <img src="<?php echo home_url('/assets/img/straumann.png'); ?>" alt="">
