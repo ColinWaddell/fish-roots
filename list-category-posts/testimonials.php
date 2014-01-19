@@ -18,9 +18,12 @@ foreach ($this->catlist->get_categories_posts() as $single):
 
   //Show the title and link to the post:
 
-  $lcp_display_output .= $this->get_content($single, 'p');
+  $lcp_display_output .= '<h4>'.$single->post_title.'</h4>';
 
-  $lcp_display_output .= '<h4>-'.$single->post_title.'</h4>';
+  $lcp_display_output .= $this->get_content($single, 'p');
+  $lcp_display_output .= $this->get_excerpt($single, 'p');
+
+  $lcp_display_output .= '<a href="'.get_permalink($single->ID) . '">' . $this->params['posts_morelink'] . '</a>';
 
   //Close li tag
   $lcp_display_output .= '</div>';

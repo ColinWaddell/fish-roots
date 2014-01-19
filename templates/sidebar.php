@@ -3,26 +3,30 @@
 
 <!-- Add Random Testimonial To Sidebar-->
 
-<hr />
+<h3>Testimonials</h3>
 
 <?php
 $id = get_cat_ID( 'testimonials' ); 
+
 $args=array(
   'cat' => $id,
-  'orderby' => rand,
   'post_type' => 'post',
   'post_status' => 'publish',
-  'posts_per_page' => 1,
-  'caller_get_posts'=> 1
+  'posts_per_page' => 5,
+  'caller_get_posts'=> 5,
+  'post__not_in' => array( get_the_ID() )
 );
+
 $my_query = new WP_Query($args);
 if( $my_query->have_posts() ) {
+
   while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
     <div class="row testimonials-list">
       <div class="col-sm-12">
-          <p><i><?php the_content(); ?></i></p>
+          <p><i><?php the_excerpt(); ?></i></p>
           <h4><i>-<?php the_title(); ?></i></h4>
+          <hr />
       </div>
     </div>
 
